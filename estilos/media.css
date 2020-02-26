@@ -74,10 +74,18 @@
 	ul.second > li > p {
 	margin-top: .7em;
 	margin-bottom: 0;
-	font-weight: 200!important;
-	font-size: 7vh;
-}
+	font-weight: 100!important;
+	font-size: 5vh;
+	}
 	
+	ul.second > li {
+	font-size: 6vh;
+	font-weight: 400!important;
+	}
+	
+	ul.second > li > a {
+		font-size: 4vh;
+	}
 	
 	div#aviso {
 		padding-top: 1%;
