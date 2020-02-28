@@ -126,6 +126,9 @@
 	body div.logo {
 		background-attachment: fixed;
 	}
+	body > div.parallax {
+		background-attachment: fixed;
+	}
 	div#aviso {
 		padding-top: 1%;
 		padding-bottom: 1%;

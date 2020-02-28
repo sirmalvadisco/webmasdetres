@@ -78,7 +78,6 @@ body div.logo {
 body > div.parallax {
 	  /* Create the parallax scrolling effect */
   height: 77%;
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
