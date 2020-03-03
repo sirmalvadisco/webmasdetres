@@ -4,6 +4,21 @@ body, html {
     scroll-behavior: smooth;
 
 }
+
+.form-check-input {
+	position: relative!important;
+}
+
+.ff-form .form-check {
+	padding-top: 4%;
+}
+
+.btn-primary {
+	margin-top: 5%!important;
+	background-color: #1a1a1a!important;
+	border-color: #1a1a1a!important;
+}
+
 .transparency {
 	opacity: .6;
 }

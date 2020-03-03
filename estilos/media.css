@@ -27,6 +27,13 @@
 
 @media screen and (min-width: 768px) { 
 	
+	label{
+	margin-top: .7em;
+	margin-bottom: 0;
+	font-weight: 200!important;
+	font-size: 4vh;
+	}
+	
 	nav > .navhide {
 		margin-left: 3em;
 	}	
