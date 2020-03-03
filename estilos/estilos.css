@@ -19,6 +19,12 @@ body, html {
 	border-color: #1a1a1a!important;
 }
 
+.btn-secondary {
+	margin-top: 5%!important;
+	background-color: #1a1a1a!important;
+	border-color: #1a1a1a!important;
+}
+
 .transparency {
 	opacity: .6;
 }
