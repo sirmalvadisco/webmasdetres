@@ -58,6 +58,18 @@
 }
 @media screen and (min-width: 991.98px) { 
 
+	.carousel {
+		height: 400px!important;
+	}
+
+	.carousel-image {
+	  height: 400px!important;
+	}	
+	
+	.b {
+	width: 20%!important;
+	}
+	
 	label{
 	margin-top: .7em;
 	margin-bottom: 0;

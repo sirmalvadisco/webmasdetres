@@ -134,6 +134,11 @@ body > div.parallax6 {
   background-image: linear-gradient(to bottom,rgba(30, 42, 57,.9) 0,rgba(10, 11, 12,.7) 100%),url('https://lh3.googleusercontent.com/CgSA6fVy4Kcii_C_fiqCHOvApL6Rh7eTZayse9d7mWkRDzvxdZ6ecRbk3UVWWzynShMqcPHZ14DDQXPxGqBU55P_I7Ep-z8RX_GKkZPeU6u-9ZIw-VfVnWKwZ-qzHQ4UPledXrajyw=w2400');
 }
 
+body > div.parallax7 {
+  /* The image used */
+  background-image: linear-gradient(to bottom,rgba(44, 22, 47,.9) 0,rgba(44, 22, 47,.7) 100%),url('https://lh3.googleusercontent.com/QIynE_R7rYH52ywsRF8-a-1hRjsP9eMoycJWYVMQ7PLxuXwmU3BaxedviopYN-wyN_DGCQTGNeWQduM3BvKr-ajUh8CP9w2T8Ny1NlOeY53qO_-dYkE5Rczj31Z_uKc2KUFYvJhAJQ=w2400');
+}
+
 ul.second > li {
 	font-size: 180%;
 	padding-left: 10%!important;
@@ -165,4 +170,16 @@ div.sticky {
 
 body.error > h1 {
 	margin-top: 25%!important;
+}
+
+/*canciones*/
+
+.lyrcs {
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.b {
+	width: 40%!important;
 }
