@@ -11,16 +11,50 @@
 	  <link href="estilos/footer.css" rel="stylesheet">
 	  <link href="estilos/media.css" rel="stylesheet">
 	  <link href="estilos/animations.css" rel="stylesheet">	   
+<script id="chatBroEmbedCode">/* Chatbro Widget Embed Code Start */function ChatbroLoader(chats,async){async=!1!==async;var params={embedChatsParameters:chats instanceof Array?chats:[chats],lang:navigator.language||navigator.userLanguage,needLoadCode:'undefined'==typeof Chatbro,embedParamsVersion:localStorage.embedParamsVersion,chatbroScriptVersion:localStorage.chatbroScriptVersion},xhr=new XMLHttpRequest;xhr.withCredentials=!0,xhr.onload=function(){eval(xhr.responseText)},xhr.onerror=function(){console.error('Chatbro loading error')},xhr.open('GET','//www.chatbro.com/embed.js?'+btoa(unescape(encodeURIComponent(JSON.stringify(params)))),async),xhr.send()}/* Chatbro Widget Embed Code End */ChatbroLoader({encodedChatId: '95Jnk'});</script>
 	  <style>
+		  .chatbro_chat {
+			  width: 100%!important;
+		  }		  
+		  
 .col-md-10 {
 	padding-right: 0;
 	padding-left: 0;
 }
 .col-md-2 {
-	padding-right: 0;
+	height: 100vh;
+	padding-right:0;
 	padding-left: 0;
 }
+		  
 
+		  .chatbro_messages_space {
+			  background-color: #000!important;
+		  }
+		  .chatbro_body {
+			  height: 94vh!important;
+			  background-color: #000!important;
+			  border: none!important;
+		  }		
+		  
+		  .chatbro_body .chatbro_messages_wrapper .chatbro_messages_block {
+			  background-color: #000!important;
+		  }
+		
+		  .chatbro_message_name {
+			  color: #fff!important;
+		  }
+		  .chatbro_message_text {
+			  color: #BBBBBB!important;
+		  }
+		  .chatbro_send .chatbro_send_input_block .chatbro_send_input_wrapper {
+			  background-color: #383838!important;
+		  }
+		  .chatbro_send_input {
+			  background-color:  #383838!important;
+			  color: #fff!important;
+		  }
+		  
 div.vivo {
 	width: 100%!important;
 	margin-left: 0;
@@ -59,7 +93,7 @@ div.vivo {
 	  
 	  
 	  <div class="row vivo position-fixed">
-  <div class="col-md-10 "> <!-- Load Facebook SDK for JavaScript -->
+  <div class="col-md-10 pr-2 pt-1"> <!-- Load Facebook SDK for JavaScript -->
   <div id="fb-root"></div>
   <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
 
@@ -75,7 +109,7 @@ div.vivo {
     </div>
   </div>
 		  </div></div>
-  <div class="col-md-2"><div class="fb-comments" data-href="https://www.facebook.com/Nico-Pintos--2207775672695827/" data-order-by="time" data-colorscheme="dark" data-width="auto" data-numposts="10"></div></div>
+  <div class="col-md-2 pt-1"> <!-- <div class="fb-comments" data-href="https://www.facebook.com/Nico-Pintos--2207775672695827/" data-order-by="time" data-colorscheme="dark" data-width="auto" data-numposts="10"></div> --><div id="chatbro"></div></div>
 </div>
 
 
